@@ -2,6 +2,7 @@ rm(list=ls())
 library(DevTreatRules)
 source("Functions/Simulations_Chapter3.R")
 source("Functions/Simulations_Chapter4.R")
+Expit <- function(x) exp(x) / (1 + exp(x))
 
 # Plots
 ## simulate one data-generating realization
